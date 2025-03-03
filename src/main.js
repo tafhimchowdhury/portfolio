@@ -1,8 +1,8 @@
-import * as THREE from 'three';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { TextureLoader } from 'three';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js';
 
 // Create Scene
 const scene = new THREE.Scene();
@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // Load Texture
-const textureLoader = new TextureLoader();
+const textureLoader = new THREE.TextureLoader();
 const earthTexture = textureLoader.load('./images/earth.jpg');
 
 // Create Sphere Geometry
