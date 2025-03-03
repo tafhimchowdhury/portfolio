@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tafhim Portfolio</title>
-    
-    <!-- Google Font Import -->
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="./src/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tafhim Portfolio</title>
+
+<!-- Google Font Import -->
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
 
-    <!-- WebGL Canvas -->
-    <canvas id="webgl"></canvas>
+<!-- WebGL Canvas -->
+<canvas id="webgl"></canvas>
 
-    <!-- Overlay UI -->
-    <div id="overlay">
-        <h1 class="title">Tafhim Chowdhury</h1>
-        <p class="subtitle">Software Engineer | 3D Artist</p>
-        <button id="explore-btn">Explore</button>
-    </div>
+<!-- Overlay UI -->
+<div id="overlay">
+    <h1 class="title">Tafhim Chowdhury</h1>
+    <p class="subtitle">Software Engineer | 3D Artist</p>
+    <button id="explore-btn">Explore</button>
+</div>
 
-    <!-- Overview Card (Hidden by Default) -->
+<!-- Overview Card (Hidden by Default) -->
 <div id="overview-card">
-    <div class="card-content">
-        <h2>Overview</h2>
-        <p>Welcome to my portfolio! I am a seasoned professional with a Bachelors degree in Computer Science from the University of British Columbia (UBC)
-            With over 4 years of hands-on experience in the technology industry with a solid foundation in full-stack software and web development, software engineering, and agile methodologies, I bring expertise honed through practical applications and continuous learning.</p>
-        <button id="close-card">Close</button>
-    </div>
+<div class="card-content">
+    <h2>Overview</h2>
+    <p>Welcome to my portfolio! I am a seasoned professional with a Bachelors degree in Computer Science from the University of British Columbia (UBC)
+        With over 4 years of hands-on experience in the technology industry with a solid foundation in full-stack software and web development, software engineering, and agile methodologies, I bring expertise honed through practical applications and continuous learning.</p>
+    <button id="close-card">Close</button>
+</div>
 </div>
 
 <!-- Experience Card (Initially Hidden) -->
 <div id="experience-card">
-    <div class="card-content">
-        <h2>Experience</h2>
-        <p id="experience-text">First experience description...</p>
-        <div class="nav-buttons">
-            <button id="prev-btn">◀</button>
-            <button id="next-btn">▶</button>
-        </div>
-        <button id="close-experience-card">Close</button>
+<div class="card-content">
+    <h2>Experience</h2>
+    <p id="experience-text">First experience description...</p>
+    <div class="nav-buttons">
+        <button id="prev-btn">◀</button>
+        <button id="next-btn">▶</button>
     </div>
+    <button id="close-experience-card">Close</button>
+</div>
 </div>
 
-    <!-- Floating Vertical Navbar -->
+<!-- Floating Vertical Navbar -->
 <!-- Floating Vertical Navbar with Emojis -->
 <div id="sidebar">
-    <a href="#overview"><span class="short">🧑</span><span class="full"> Overview</span></a>
-    <a href="#education"><span class="short">🎓</span><span class="full"> Education</span></a>
-    <a href="#experience"><span class="short">💼</span><span class="full"> Experience</span></a>
-    <a href="#certifications"><span class="short">📜</span><span class="full"> Certifications</span></a>
+<a href="#overview"><span class="short">🧑</span><span class="full"> Overview</span></a>
+<a href="#education"><span class="short">🎓</span><span class="full"> Education</span></a>
+<a href="#experience"><span class="short">💼</span><span class="full"> Experience</span></a>
+<a href="#certifications"><span class="short">📜</span><span class="full"> Certifications</span></a>
 </div>
 
-    <script type="module" src="./src/main.js"></script>
+<script type="module" src="./src/main.js"></script>
+<script type="module" src="./main.js"></script>
+
 </body>
 </html>
