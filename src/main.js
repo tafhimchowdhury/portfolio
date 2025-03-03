@@ -29,7 +29,7 @@ dracoLoader.setDecoderPath('https://www.gstatic.com/draco/v1/decoders/');
 loader.setDRACOLoader(dracoLoader);
 
 loader.load(
-    '/models/moon.gltf',
+    './models/moon.gltf',
     (gltf) => {
         console.log("Model loaded successfully!");
         const moon = gltf.scene;
@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Load Texture
 const textureLoader = new TextureLoader();
-const earthTexture = textureLoader.load('/images/earth.jpg');
+const earthTexture = textureLoader.load('./images/earth.jpg');
 
 // Create Sphere Geometry
 const earthGeometry = new THREE.SphereGeometry(300, 100, 100); // Radius, Width Segments, Height Segments
