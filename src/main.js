@@ -1,7 +1,7 @@
-import * as THREE from "https://unpkg.com/three@0.126.1/build/three.module.js";
-import { GLTFLoader } from "https://unpkg.com/three@0.126.1/build/three.module.js";
-import { DRACOLoader } from "https://unpkg.com/three@0.126.1/build/three.module.js";
-import { OrbitControls } from "https://unpkg.com/three@0.126.1/build/three.module.js";
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 // Create Scene
 const scene = new THREE.Scene();

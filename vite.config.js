@@ -1,6 +1,4 @@
 export default {
-  server: {
-    open: true, // Opens browser automatically
-    port: 5173  // Default Vite port
-  }
+  base: '/portfolio/', // Replace with your GitHub repository name
+  plugins: [react()]
 };
